@@ -1,6 +1,35 @@
 * {
-
+padding: 0px;
+margin: 0px;
+font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    
+background-color: red;
+}
+
+header {
+    background-color: blueviolet;
+    margin: 0px 0px 20px 0px;
+    padding: 10px;
+}
+header > p {
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+main {
+    display: block;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+main img {
+    width: 50%;
+    display: block;
+    margin: 10px auto 20px auto;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    border-radius: 20px;
 }
